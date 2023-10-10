@@ -3,3 +3,11 @@ Ans. Class is a way of using HTML elements for styling. They are not unique and 
 
 2-Define z-index
 Ans. Z-index is used to specify the stack order of elements that overlap each other.
+
+3-What is the CSS Box model and what are its elements?
+Ans. The CSS box model is used to define the design and layout of elements of CSS.
+    The elements are:
+    Margin - It removes the area around the border. It is transparent.
+    Border - It represents the area around the padding
+    Padding - It removes the area around the content. It is transparent.
+    Content - It represents the content like text, images, etc.
