@@ -11,3 +11,10 @@ Ans. The CSS box model is used to define the design and layout of elements of CS
     Border - It represents the area around the padding
     Padding - It removes the area around the content. It is transparent.
     Content - It represents the content like text, images, etc.
+
+4-Margin 
+ margin: 20px 30px 50px 40px ;
+=margin: top  right bottom left;
+
+ margin: 20px         30px;
+=margin: top,bottom   right,left;
