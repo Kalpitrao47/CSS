@@ -1,3 +1,5 @@
 1-What is the difference between a class and an ID?
 Ans. Class is a way of using HTML elements for styling. They are not unique and have multiple elements. Whereas ID is unique and it can be assigned to a single element. 
 
+2-Define z-index
+Ans. Z-index is used to specify the stack order of elements that overlap each other.
