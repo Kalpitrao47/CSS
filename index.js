@@ -95,4 +95,14 @@ function abcd(){
 }
 
 abcd();
+// Q-Explain why I am getting printed numbers from 1 to 12.It should print 1 to 11 as we have less than 12.
+// Ans-After the loop, the value of a is logged to the console again, but this time outside the loop. 
+// Since a was incremented inside the loop until it became 12, the value of a outside the loop is 12. 
+// Therefore, you will see "second 12" printed in the console after the numbers from 1 to 11.
+
+
+//jitne bhi variables ya data hum banate hai unhe store kahi to karna padtaa hai uske liyee hotaa hai heap memory.
+
+//execution context 
+
 
