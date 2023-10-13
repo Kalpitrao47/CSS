@@ -87,14 +87,14 @@
 // var function scoped hota hai
 // let braces scoped hota hai
 
-function abcd(){
-    for(var a = 1; a<12; a++){
-        console.log("first",a);
-    }
-    console.log("second",a);
-}
+// function abcd(){
+//     for(var a = 1; a<12; a++){
+//         console.log("first",a);
+//     }
+//     console.log("second",a);
+// }
 
-abcd();
+// abcd();
 // Q-Explain why I am getting printed numbers from 1 to 12.It should print 1 to 11 as we have less than 12.
 // Ans-After the loop, the value of a is logged to the console again, but this time outside the loop. 
 // Since a was incremented inside the loop until it became 12, the value of a outside the loop is 12. 
@@ -103,6 +103,38 @@ abcd();
 
 //jitne bhi variables ya data hum banate hai unhe store kahi to karna padtaa hai uske liyee hotaa hai heap memory.
 
-//execution context 
+//execution context is a container where the function code is executed and its created whenever  a function
+//is called,it contains 3 things ,variables,functions and lexical environment.
+
+//lexical environment
+
+// function abcd(){
+//     var a = 12;
+//     console.log("a",a);
+//     b();
+//     function b(){
+//         var b = 14;
+//         console.log("b",b);
+//     }
+    
+// }
+// abcd();
+
+// How to copy reference values?
+var a = [1,2,3,4,5]
+console.log("a values",a);
+var b = [...a]
+b.pop();
+b.push(9);
+console.log("b values",b);
+
+
+var obj = {
+    name:"Kalpit",
+}
+
+var copyobj = {...obj}
+copyobj.name = "Eshita"
+console.log(copyobj)
 
 
