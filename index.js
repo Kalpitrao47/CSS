@@ -121,20 +121,22 @@
 // abcd();
 
 // How to copy reference values?
-var a = [1,2,3,4,5]
-console.log("a values",a);
-var b = [...a]
-b.pop();
-b.push(9);
-console.log("b values",b);
+// var a = [1,2,3,4,5]
+// console.log("a values",a);
+// var b = [...a]
+// b.pop();
+// b.push(9);
+// console.log("b values",b);
 
 
-var obj = {
-    name:"Kalpit",
-}
+// var obj = {
+//     name:"Kalpit",
+// }
 
-var copyobj = {...obj}
-copyobj.name = "Eshita"
-console.log(copyobj)
+// var copyobj = {...obj}
+// copyobj.name = "Eshita"
+// console.log(copyobj)
+
+
 
 
