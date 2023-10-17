@@ -163,6 +163,30 @@
 
 //15-reduce()-Reduces an array to a single value
 
+//16-DOM-Document Object Model-
+//Ans-DOM represents the page content as html.
+//       document.body   ------>PAge body as JS Object  
+//       document.body.style.background= "green"        ----------->Changes page bg to green.
+
+//Walking the dom
+{/* <html>
+        <head>
+                <title>
+                hello                 ------>document.body
+                </title>
+        </head>
+</html> */}
+
+
+//17-Callbacks Promises async await.
+//Ans- Asynchronous actions are the actions that we initiate now and then finish later.eg:-setTimeout
+//Synchronous actions are the actions that initiate and finish one by one.
+
+// Callback functions 
+// A Callback function is a function passed into another function as an argument, which is then invoked inside the 
+// outer function to complete an action.
+
+// Here is an example of a callback:
 
 
 
