@@ -186,9 +186,13 @@
 // A Callback function is a function passed into another function as an argument, which is then invoked inside the 
 // outer function to complete an action.
 
-// Here is an example of a callback:
+
+//18 Why is for loop not used in react js
+//Ans- It's because the JSX expects anything inside of it to return an object to be displayed. 
+//A for loop does not return anything, but map does.
 
 
+//19
 
 
 
