@@ -250,3 +250,21 @@ setTimeout(function() {
 }, 0);
 
 console.log(5);
+
+//Callback Function
+const calculate = (a,b, operation) =>{
+    return operation(a,b);
+}
+
+//method1
+const addition = calculate(3,4, function (num1,num2){
+    return num1 + num2;
+})
+
+console.log(addition);
+
+//method2
+const subtraction = (a,b) => a-b;
+const subresult = calculate(8,3,subtraction)
+
+console.log(subresult);
