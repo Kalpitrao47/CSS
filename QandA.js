@@ -7,7 +7,12 @@
 //      A varibale must begin with a $,_,or a letter.
 
 //3-var vs let in javascript?
-//Ans-var is a globally scoped while let and const are blocked scoped.
+//Ans-var is a function scoped. 
+//It means if you declare a variable using var inside a function, 
+//it is only accessible within that function 
+//while let and const are blocked scoped.
+//It means a variable declared with let is limited in scope to the 
+//block, statement, or expression (enclosed within curly braces {}) where it is defined.
 //    var can be updated & redeclared within its scope.
 //    let can be updated but not re-declared.
 //    const can neither be updated nor re-declared.
@@ -193,6 +198,65 @@
 
 
 //19
+
+
+// Basic JavaScript Concepts:
+// What is JavaScript?
+// What are the data types in JavaScript?
+// Explain the difference between let, var, and const for variable declarations.
+// What is the difference between null and undefined?
+// Explain the concept of hoisting.
+// What is closure in JavaScript? Can you provide an example?
+// Explain the this keyword in JavaScript.
+
+
+// Functions and Scope:
+// What is a callback function?
+// What are arrow functions? How are they different from regular functions?
+// What is a closure? Can you provide an example of how it is used?
+// What is the difference between function declaration and function expression?
+// Explain the concept of a pure function.
+
+
+// Object-Oriented Programming (OOP) in JavaScript:
+// What are prototypes in JavaScript?
+// Explain the difference between classical inheritance and prototypal inheritance.
+// What is the new keyword used for in JavaScript?
+// What is an object in JavaScript?
+// What is JSON?
+
+
+// Asynchronous Programming:
+// What are callbacks? How do you avoid callback hell?
+// What is a Promise in JavaScript?
+// Explain async and await in JavaScript.
+// What is the event loop in JavaScript?
+
+
+// DOM Manipulation and Events:
+// What is the DOM?
+// How can you select elements with JavaScript?
+// Explain event delegation in JavaScript.
+// What is the difference between addEventListener and onclick?
+
+
+// Advanced Topics:
+// What are closures and how are they used?
+// Explain the concept of debouncing and throttling.
+// What is the difference between let, const, and var in terms of scope and hoisting?
+// What are higher-order functions? Can you provide an example?
+// What is the difference between null, undefined, and undeclared variables?
+
+
+// Security:
+// What is Cross-Origin Resource Sharing (CORS) and how can it be mitigated?
+// What is Cross-Site Scripting (XSS) and how can it be prevented?
+// Explain Same-Origin Policy and its importance in web security.
+// Remember, interview questions can vary widely based on the specific role and level you are interviewing for, so it's essential to review the job description and the company you are applying to for a more tailored preparation. Good luck!
+
+
+
+
 
 
 
