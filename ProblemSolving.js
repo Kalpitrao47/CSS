@@ -268,3 +268,13 @@ const subtraction = (a,b) => a-b;
 const subresult = calculate(8,3,subtraction)
 
 console.log(subresult);
+
+
+
+//REST AND SPREAD OPERATOR
+//Example REST
+function addNumbers(a,b,c,...other){
+    return a+b+c+other;
+}
+
+console.log(addNumbers(2,5,6,8,2,5,46));

@@ -1,11 +1,6 @@
-function personOne(personTwo){
-    console.log("I am person One")
-    personTwo();
+
+function addNumbers(a,b,c,...other){
+    return a+b+c;
 }
 
-function personTwo(){
-    console.log("I am person Two")
-}
-
-
-personOne(personTwo);
+console.log(addNumbers(2,5,6,8,2,5,46));

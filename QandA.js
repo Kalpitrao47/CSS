@@ -255,6 +255,17 @@
 // Remember, interview questions can vary widely based on the specific role and level you are interviewing for, so it's essential to review the job description and the company you are applying to for a more tailored preparation. Good luck!
 
 
+//Implement a function that converts a Javascript value into a json string?
+//Implement a function that performs a deep copy of a value but also handles circular references?
+//Implement a function to construct a table of contents from an HTML document?
+//Implement a function to filter rows of data matching a specified requirement?
+//Implement a function that converts all the keys in an object to camel case?
+//Implement a function to deserialize a JSOn String?
+//Implement a function to resolve a given value to a promise?
+//Implement a function that formats a list of items into a single readable string?
+//Implement a function that returns a memoized version of a function which accepts a single argument?
+//Implement the functionality behaviour of Promise.any?
+//Implement a function that merges two objects together?
 
 
 
